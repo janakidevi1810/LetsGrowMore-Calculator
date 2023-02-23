@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="Calculator.css">
+       
+</head>
+
+<body>
+    <div class="bg-container">
+        <h1 class="calculator-heading">Calculator</h1>
+        <div class="container">
+            <input type="text" id="calculatorDisplay">
+            <div class="calculator">
+
+                <button class="symbol" onclick="show('/')">&divide;</button>
+                <button class="button" onclick="show('7')">7</button>
+                <button class="button" onclick="show('8')">8</button>
+                <button class="button" onclick="show('9')">9</button>
+                <button class="symbol" onclick="show('-')">-</button>
+                <button class="button" onclick="show('4')">4</button>
+                <button class="button" onclick="show('5')">5</button>
+                <button class="button" onclick="show('6')">6</button>
+                <button class="symbol" onclick="show('*')">&times;</button>
+                <button class="button" onclick="show('1')">1</button>
+                <button class="button" onclick="show('2')">2</button>
+                <button class="button" onclick="show('3')">3</button>
+                <button class="symbol" onclick="show('+')">+</button>
+                <button class="button" onclick="show('00')">00</button>
+                <button class="button" onclick="show('0')">0</button>
+                <button class="button" onclick="show('.')">.</button>
+                <button class="symbol" onclick="calculate()">=</button>
+                <button class="first" onclick="allClearBtn()"> AC </button>
+                <button class="first" onclick="clearBtn()"> C </button>
+                <button class="first" onclick="show('%')">%</button>
+            </div>
+        </div>
+    </div>
+    <script src="Calculator.js"> </script>
+</body>
+
+</html>

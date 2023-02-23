@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-boss-day-concept-with-copy-space_23-2148586471.jpg?w=1380&t=st=1677145337~exp=1677145937~hmac=ec69dac19f3cd36ef9a2568743bf9cab3a1c7980cd2bb71ec94516d649de9191");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    color: #073763;
+}
+
+input {
+    font-size: 25px;
+    height: 50px;
+    width: 390px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    letter-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+.container {
+    border: 2px solid;
+    height: 550px;
+    width: 420px;
+    background-color: #000000;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.calculator {
+    display: grid;
+    padding: 12px;
+    height: 450px;
+    width: 400px;
+    grid-template-columns: repeat(4, 2fr);
+    border-radius: 1px;
+}
+
+.button {
+    background-color: #BEBFC5;
+    font-weight: bold;
+    border-radius: 80px;
+}
+
+.first {
+    background-color: orange;
+    color: #0D3728;
+    font-weight: bold;
+    border-radius: 80px;
+}
+
+.symbol {
+    background-color: orange;
+    font-weight: bold;
+    color: #0D3728;
+    font-size: 30px;
+    border-radius: 80px;
+}
